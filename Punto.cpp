@@ -31,7 +31,7 @@ double Punto::getY(){
 
 // Otros métodos
 double Punto::calculaDistancia(Punto p2){
-    return sqrt((p2.x - x) * (p2.x - x) + (p2.y - y) * (p2.y - y));
+    return sqrt(((p2.x - x) * (p2.x - x)) + ((p2.y - y) * (p2.y - y)));
  }
 
 string Punto::str(){
