@@ -1,7 +1,11 @@
 #ifndef Punto_hpp
 #define Punto_hpp
 
-#include "stdio.h"
+using namespace std;
+
+#include <stdio.h>
+#include <string>
+#include <math.h>
 
 class Punto{
 private:
@@ -25,3 +29,5 @@ double getY();
 double calculaDistancia(Punto p2);
 string str();
 };
+
+#endif /* Punto_hpp */
